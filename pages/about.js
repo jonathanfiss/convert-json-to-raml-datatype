@@ -1,9 +1,15 @@
 import Layout from '../components/layout'
 import Sidebar from '../components/sidebar'
+import Link from 'next/link'
+import styles from '../components/navbar.module.css'
 
 export default function About() {
   return (
     <section>
+      <input className={styles.input} placeholder="Search..." />
+      <Link href="/">
+        <a>Home</a>
+      </Link>
       <h2>Layout Example (About)</h2>
       <p>
         This example adds a property <code>getLayout</code> to your page,
