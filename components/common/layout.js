@@ -12,7 +12,7 @@ export default function Layout({ children }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/x-icon" href="/favicon.svg"></link>
-        <meta name="google-site-verification" content="a8Wa90Ao0K2dVczFTKqzDcMUAncgQhCaN2YIckDm_lw" />
+        <meta name="google-site-verification" content="21m4xhh-BeM57W92dFu_VNTuu5recjRHtgZXQDGFdg0" />
       </Head>
       <div className='min-vh-100'>
       <Header />
