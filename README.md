@@ -1,31 +1,15 @@
-# Deploying to GitHub Pages
+# Convert JSON to RAML DataType
 
-This example supports deloying a static Next.js application (using `next export`) to GitHub Pages.
+## Functionality overview
 
-## How to use
+This project is a website that helps in creating RAML data type schemas.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Getting started
 
-```bash
-npx create-next-app --example github-pages nextjs-github-pages
-# or
-yarn create next-app --example github-pages nextjs-github-pages
-# or
-pnpm create next-app --example github-pages nextjs-github-pages
-```
+You can view a live demo over at [https://jonathanfiss.github.io/convert-json-to-raml-datatype/](https://jonathanfiss.github.io/convert-json-to-raml-datatype/)
 
-### Deploy to GitHub Pages
+To get the frontend running locally:
 
-1.  Create a new public GitHub repository.
-1.  Edit `next.config.js` to match your GitHub repository name.
-1.  Push the starter code to the `main` branch.
-1.  Run the `deploy` script (e.g. `npm run deploy`) to create the `gh-pages` branch.
-1.  On GitHub, go to **Settings** > **Pages** > **Source**, and choose `gh-pages` as the branch with the `/root` folder. Hit **Save**.
-1.  Make a change.
-1.  Run the `deploy` script again to push the changes to GitHub Pages.
-
-Congratulations! You should have a URL like:
-
-```bash
-https://<github-user-name>.github.io/<github-project-name>/
-```
+- Clone this repo
+- `npm install` to install all dependencies
+- `npm run dev` to start the local server
